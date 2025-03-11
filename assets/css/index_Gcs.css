@@ -1,0 +1,15 @@
+header
+{
+    text-align: center;
+}
+
+.gcs-logo
+{
+    padding-left: 20px;
+}
+
+.gcs-icons-header li
+{
+    padding: 20px;
+    margin-right: 10px;
+}
