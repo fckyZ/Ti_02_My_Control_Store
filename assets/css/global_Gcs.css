@@ -7,6 +7,12 @@
     cursor: default;
 }
 
+button
+{
+    background-color: transparent;
+    border: none;
+}
+
 body
 {
     background-color: black;
@@ -24,5 +30,5 @@ body
 {
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }

@@ -2,39 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>initial_Page</title>
+    <meta name="viewport" content="width=device-width, Home scale=1.0">
+    <title>Home Page</title>
     <link rel="stylesheet" href="./css/global_Gcs.css"> <!-- global css gabriel -->
     <link rel="stylesheet" href="./css/index_Gcs.css"> <!-- index css gabriel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <header>
+    <header> <!-- init header -->
         <div class="gcs-flex-between"> <!-- container header / logo && icons -->
-            <div class="gcs-logo gcs-flex-center"> <!-- logo -->
-                <p>icon</p>
+            <div class="gcs-logo gcs-flex-center"> 
+                <img src="./images/icon.png" alt=""> <!-- logo -->
             </div>
-            <nav> <!-- icons-header --> 
-                <ul class="gcs-icons-header gcs-flex-center">
-                    <li>sun</li>
-                    <li>home</li>
-                    <li>phone</li>
-                    <li>cash</li>
+            <nav> <!-- icons header --> 
+                <ul class="gcs-icons-header-and-login gcs-flex-center">
+                    <li><i class="fa-solid fa-sun"></i></li>
+                    <li><i class="fa-solid fa-house"></i></li>
+                    <li><i class="fa-solid fa-phone"></i></li>
+                    <li><i class="fa-solid fa-wallet"></i></li>
+                    <li><i class="fa-solid fa-user"></i></li>
                 </ul>
             </nav>
         </div>
-    </header>
-    <div class="gcs-apretation-info"> <!-- info section -->
+    </header> <!-- final header -->
+
+    <div class="gcs-apretation-info gcs-flex-center"> <!-- init info section -->
         <div class="gcs-text-info"> <!-- text info -->
-            <h1>blablablabla</h1>
-            <h3>omdwpamocwapomcdawcwacaw</h3>
+            <h1>My Control Store</h1>
+            <h3>App to control your store ...</h3>
         </div>
-        <div class="gcs-image-info"> <!-- img info -->
-            <img src="" alt="img">
+        <div class="gcs-image-info gcs-flex-center"> <!-- image info -->
+            <img src="./images/img.jpg" alt="img">
         </div>
     </div>
-    <div class="gcs-btn-next-page"> <!-- button next page -->
-        <div class="gcs-triangle-btn">
-            <img src="" alt="img-btn">
+    <div class="gcs-btn-next-page gcs-flex-center" id="gcs-id-btn-next-page"> <!-- button next page -->
+        <div class="gcs-triangle-btn gcs-flex-center">
+            <img src="./images/btn.png" alt="img-btn">
+        </div>
+    </div> <!-- final info section -->
+
+    <div class="gcs-container-cards-products gcs-flex-center"> <!-- init container cards -->
+        <div class="gcs-card gcs-flex-center"> <!-- defining card -->
+            <img src="./images/produto_01.jpg" alt="" class="gcs-img-card"> <!-- image card -->
+            <p>Produto 01</p> <!-- title card -->
+            <div class="gcs-card-btns gcs-flex-center"> <!-- buttons card -->
+                <button class="gcs-btn-details">
+                    <i class="fa-solid fa-circle-info"></i>
+                </button>
+                <p class="gcs-line gcs">|</p>
+                <button class="gcs-btn-add-cart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                </button>
+            </div>
+        </div>
+        <div class="gcs-card gcs-flex-center">
+            <img src="./images/produto_02.jpg" alt="" class="gcs-img-card">
+            <p>Produto 02</p>
+            <div class="gcs-card-btns gcs-flex-center">
+                <button class="gcs-btn-details gcs-flex-center">
+                    <i class="fa-solid fa-circle-info"></i>
+                </button>
+                <p class="gcs-line gcs">|</p>
+                <button class="gcs-btn-add-cart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                </button>
+            </div>
+        </div>
+        <div class="gcs-card gcs-flex-center">
+            <img src="./images/produto_03.jpg" alt="" class="gcs-img-card">
+            <p>Produto 03</p>
+            <div class="gcs-card-btns gcs-flex-center">
+                <button class="gcs-btn-details">
+                    <i class="fa-solid fa-circle-info"></i>
+                </button>
+                <p class="gcs-line gcs">|</p>
+                <button class="gcs-btn-add-cart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                </button>
+            </div>
         </div>
     </div>
 
