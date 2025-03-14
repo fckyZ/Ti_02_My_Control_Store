@@ -60,7 +60,7 @@ header
 .gcs-container-cards-products
 {
     margin-top: 40%;
-    gap: 20%;
+    gap: 10%;
 }
 
 .gcs-card
@@ -70,7 +70,7 @@ header
     border: 2px solid white;
     border-radius: 30px;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
 }
 
 .gcs-btn-details
@@ -98,6 +98,14 @@ header
     gap: 40px;
 }
 
+.gcs-title-product
+{
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 .gcs-card-btns button i
 {
     cursor: pointer;
@@ -106,4 +114,18 @@ header
 .gcs-line
 {
     font-size: 30px;
+}
+
+.gcs-container-services
+{
+    height: 100vh;
+}
+
+.gcs-services
+{
+    width: 50%;
+    height: 50%;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 10% 0 10% 0;
 }
